@@ -199,6 +199,22 @@
         }
     },
     {
+        "DisplayName":"Behemoth Events",
+        "Category":"Server Settings",
+        "Description":"If enabled, behemoth events will be active on the server",
+        "Keywords":"behemoth,events",
+        "FieldName":"BehemothEvents",
+        "InputType":"checkbox",
+        "IsFlagArgument":false,
+        "ParamFieldName":"behemoth-events",
+        "IncludeInCommandLine":true,
+        "DefaultValue":"false",
+        "EnumValues":{
+            "True":"true",
+            "False":"false"
+        }
+    },
+    {
         "DisplayName":"Collision Damage Level",
         "Category":"Server Settings",
         "Description":"Sets the level of damage to an object on collison. 0 = no damage, 1 = full damage",
@@ -210,6 +226,62 @@
         "IncludeInCommandLine":true,
         "DefaultValue":"1",
         "Placeholder":"0 - 1",
+        "EnumValues":{}
+    },
+    {
+        "DisplayName":"Map Factions",
+        "Category":"Server Settings",
+        "Description":"Sets the number of factions seeded in the galaxy",
+        "Keywords":"map,factions",
+        "FieldName":"MapFactions",
+        "InputType":"number",
+        "IsFlagArgument":false,
+        "ParamFieldName":"map-factions",
+        "IncludeInCommandLine":true,
+        "DefaultValue":"350",
+        "Placeholder":"0-1000",
+        "EnumValues":{}
+    },
+    {
+        "DisplayName":"Rifts",
+        "Category":"Server Settings",
+        "Description":"Sets the number of rifts seeded in the galaxy",
+        "Keywords":"rifts",
+        "FieldName":"Rifts",
+        "InputType":"number",
+        "IsFlagArgument":false,
+        "ParamFieldName":"rifts",
+        "IncludeInCommandLine":true,
+        "DefaultValue":"200",
+        "Placeholder":"0 - 500",
+        "EnumValues":{}
+    },
+    {
+        "DisplayName":"Big Wreckage Despawn Time",
+        "Category":"Server Settings",
+        "Description":"Sets the duration before despawn of big wreckage",
+        "Keywords":"wreckage,despawn",
+        "FieldName":"BigWreckageDespawnTime",
+        "InputType":"number",
+        "IsFlagArgument":false,
+        "ParamFieldName":"big-wreckage-despawn-time",
+        "IncludeInCommandLine":true,
+        "DefaultValue":"1800",
+        "Placeholder":"100 - 20000",
+        "EnumValues":{}
+    },
+    {
+        "DisplayName":"Small Wreckage Despawn Time",
+        "Category":"Server Settings",
+        "Description":"Sets the duration before despawn of small wreckage",
+        "Keywords":"wreckage,despawn",
+        "FieldName":"SmallWreckageDespawnTime",
+        "InputType":"number",
+        "IsFlagArgument":false,
+        "ParamFieldName":"small-wreckage-despawn-time",
+        "IncludeInCommandLine":true,
+        "DefaultValue":"900",
+        "Placeholder":"100 - 20000",
         "EnumValues":{}
     },
     {
