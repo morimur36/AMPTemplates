@@ -237,7 +237,7 @@
         "InputType":"number",
         "IsFlagArgument":false,
         "ParamFieldName":"map-factions",
-        "IncludeInCommandLine":true,
+        "IncludeInCommandLine":false,
         "DefaultValue":"350",
         "Placeholder":"0-1000",
         "EnumValues":{}
@@ -251,7 +251,7 @@
         "InputType":"number",
         "IsFlagArgument":false,
         "ParamFieldName":"rifts",
-        "IncludeInCommandLine":true,
+        "IncludeInCommandLine":false,
         "DefaultValue":"200",
         "Placeholder":"0 - 500",
         "EnumValues":{}
@@ -265,7 +265,7 @@
         "InputType":"number",
         "IsFlagArgument":false,
         "ParamFieldName":"big-wreckage-despawn-time",
-        "IncludeInCommandLine":true,
+        "IncludeInCommandLine":false,
         "DefaultValue":"1800",
         "Placeholder":"100 - 20000",
         "EnumValues":{}
@@ -279,7 +279,7 @@
         "InputType":"number",
         "IsFlagArgument":false,
         "ParamFieldName":"small-wreckage-despawn-time",
-        "IncludeInCommandLine":true,
+        "IncludeInCommandLine":false,
         "DefaultValue":"900",
         "Placeholder":"100 - 20000",
         "EnumValues":{}
