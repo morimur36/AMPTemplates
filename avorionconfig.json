@@ -347,7 +347,7 @@
     {
         "DisplayName":"Worker Threads",
         "Category":"Server System Settings",
-        "Description":"Sets the number of server worker threads. Recommended approximately one per server CPU thread (including hyperthreading)",
+        "Description":"Sets the number of server worker threads. Recommended approximately one per server CPU thread (including hyperthreading), minimum four",
         "Keywords":"threads",
         "FieldName":"WorkerThreads",
         "InputType":"number",
@@ -356,12 +356,14 @@
         "IncludeInCommandLine":false,
         "DefaultValue":"4",
         "Placeholder":"4 - 32",
-        "EnumValues":{}
+        "Suffix":"worker threads",
+        "EnumValues":{},
+        "MinValue":"4"
     },
     {
         "DisplayName":"Generator Threads",
         "Category":"Server System Settings",
-        "Description":"Sets the number of server generator threads. Recommended approximately one for every two to four worker threads",
+        "Description":"Sets the number of server generator threads. Recommended approximately one for every two to four worker threads, minimum two",
         "Keywords":"threads",
         "FieldName":"GeneratorThreads",
         "InputType":"number",
@@ -370,12 +372,14 @@
         "IncludeInCommandLine":false,
         "DefaultValue":"2",
         "Placeholder":"2 - 8",
+        "Suffix":"generator threads",
         "EnumValues":{}
+        "MinValue":"2"
     },
     {
         "DisplayName":"Script Background Threads",
         "Category":"Server System Settings",
-        "Description":"Sets the number of server script background threads. Recommended approximately one for every four to eight worker threads",
+        "Description":"Sets the number of server script background threads. Recommended approximately one for every four to eight worker threads, minimum two",
         "Keywords":"threads",
         "FieldName":"ScriptBackgroundThreads",
         "InputType":"number",
@@ -384,7 +388,9 @@
         "IncludeInCommandLine":false,
         "DefaultValue":"2",
         "Placeholder":"2 - 4",
+        "Suffix":"script background threads",
         "EnumValues":{}
+        "MinValue":"2"
     },
     {
         "DisplayName":"Server Branch",
