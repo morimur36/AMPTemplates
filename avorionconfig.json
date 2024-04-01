@@ -357,8 +357,7 @@
         "DefaultValue":"4",
         "Placeholder":"4 - 32",
         "Suffix":"worker threads",
-        "EnumValues":{},
-        "MinValue":"1"
+        "EnumValues":{}
     },
     {
         "DisplayName":"Generator Threads",
@@ -374,7 +373,6 @@
         "Placeholder":"2 - 8",
         "Suffix":"generator threads",
         "EnumValues":{}
-        "MinValue":"2"
     },
     {
         "DisplayName":"Script Background Threads",
@@ -390,7 +388,6 @@
         "Placeholder":"2 - 4",
         "Suffix":"script background threads",
         "EnumValues":{}
-        "MinValue":"2"
     },
     {
         "DisplayName":"Server Branch",
