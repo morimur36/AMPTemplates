@@ -229,34 +229,6 @@
         }
     },
     {
-        "DisplayName":"Map Factions",
-        "Category":"Server Game Settings",
-        "Description":"Sets the number of factions seeded in the galaxy",
-        "Keywords":"map,factions",
-        "FieldName":"MapFactions",
-        "InputType":"number",
-        "IsFlagArgument":false,
-        "ParamFieldName":"Game.MapFactions",
-        "IncludeInCommandLine":false,
-        "DefaultValue":"350",
-        "Placeholder":"0-1000",
-        "EnumValues":{}
-    },
-    {
-        "DisplayName":"Rifts",
-        "Category":"Server Game Settings",
-        "Description":"Sets the number of rifts seeded in the galaxy",
-        "Keywords":"rifts",
-        "FieldName":"Rifts",
-        "InputType":"number",
-        "IsFlagArgument":false,
-        "ParamFieldName":"Game.Rifts",
-        "IncludeInCommandLine":false,
-        "DefaultValue":"200",
-        "Placeholder":"0 - 500",
-        "EnumValues":{}
-    },
-    {
         "DisplayName":"Big Wreckage Despawn Time",
         "Category":"Server Game Settings",
         "Description":"Sets the duration before despawn of big wreckage",
